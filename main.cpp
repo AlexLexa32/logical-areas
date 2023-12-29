@@ -149,7 +149,7 @@ int main()
         }
         if (flag) {
             sf::Texture bg;
-            bg.loadFromFile("/Users/macbook/CLionProjects/untitled/AVM2.png");
+            bg.loadFromFile("AVM2.png");
             sf::Sprite herosprite;
             herosprite.setTexture(bg);
             herosprite.setPosition(0, 0);
@@ -157,14 +157,14 @@ int main()
         }
         if (flag2) {
             sf::Texture bg;
-            bg.loadFromFile("/Users/macbook/CLionProjects/untitled/VVM.png");
+            bg.loadFromFile("VVM.png");
             sf::Sprite herosprite;
             herosprite.setTexture(bg);
             herosprite.setPosition(-250, 0);
             window.draw(herosprite);
         }
         sf::Texture bg;
-        bg.loadFromFile("/Users/macbook/CLionProjects/untitled/Math.png");
+        bg.loadFromFile("Math.png");
         sf::Sprite herosprite;
         herosprite.setTexture(bg);
         herosprite.setPosition(-500 + move_x, -200);
